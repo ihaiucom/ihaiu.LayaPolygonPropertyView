@@ -7,9 +7,9 @@ import DropBox from "./script/DropBox"
 * 游戏初始化配置;
 */
 export default class GameConfig{
-    static width:number=640;
-    static height:number=1136;
-    static scaleMode:string="fixedwidth";
+    static width:number=720;
+    static height:number=1280;
+    static scaleMode:string=Laya.Stage.SCALE_SHOWALL;
     static screenMode:string="none";
     static startScene:string="test/TestScene.scene";
     static sceneRoot:string="";
